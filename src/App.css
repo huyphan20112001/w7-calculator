@@ -36,3 +36,51 @@
     transform: rotate(360deg);
   }
 }
+button {
+  width: 3em;
+  height: 3em;
+  font-size: 1.5em;
+  border: none;
+  border-radius: 2em;
+  margin: 0.3em;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.calculator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.wrapper {
+  background-color: black;
+  border-radius: 1em;
+  padding: 1em;
+  max-width: 350px;
+}
+
+.orange {
+  background-color: #ff9500;
+  color: white;
+}
+
+.grey {
+  background-color: #505050;
+  color: white;
+}
+
+.result {
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1em;
+  font-size: 3.5em;
+  margin-right: 40px;
+}
+.result::-webkit-scrollbar {
+  display: none;
+}
